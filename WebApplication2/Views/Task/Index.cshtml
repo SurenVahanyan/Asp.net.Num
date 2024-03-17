@@ -1,0 +1,11 @@
+﻿<form method="post">
+    <input type="number" name="n" placeholder="Enter Value" />
+    <button type="submit">Send</button>
+</form>
+
+<h2> Values </h2>
+@foreach (var i in Model)
+{
+    <div>@i.Number</div>
+
+}
